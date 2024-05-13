@@ -1,9 +1,7 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
-class Animals extends Model {
-  
-}
+class Animals extends Model {}
 
 Animals.init(
   {
@@ -18,7 +16,7 @@ Animals.init(
       allowNull: false,
       validate: {
         len: [3],
-        isIn: [['dog', 'cat']],
+        isIn: [["dog", "cat"]],
       },
     },
     age: {
@@ -28,17 +26,19 @@ Animals.init(
         isNumeric: true,
       },
     },
-    breed: {
-        type: DataTypes.STRING,
-        allowNull: true,
-    },
-    location: {
+    animal_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
+
+    breed: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+
     description: {
-        type: DataTypes.STRING,
-        allowNull: true,
+      type: DataTypes.STRING,
+      allowNull: true,
     },
   },
   {
@@ -46,7 +46,7 @@ Animals.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'animal',
+    modelName: "animal",
   }
 );
 
