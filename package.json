@@ -1,0 +1,13 @@
+{
+  "name": "project-two-app",
+  "version": "1.0.0",
+  "description": "Full stack application - Happy Tails allows for users to find their forever friend within a Dog or Cat compainon. This application allows for viewing different animal breeds that are up for adoption in your local area. Being able to see and filter animals through breed type, age, and color to bring your furrever freind home and to see that Happy Tail wagging.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

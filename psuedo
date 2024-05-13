@@ -1,0 +1,38 @@
+APIs' - 
+DarkMode (NPM)
+Petfinder - if available
+
+Express/Sequelize/Express Handlebars/Node/Nodeomon/PostGresSQL
+
+MEDIA QUERY - 
+
+Handlebars - 
+
+Java Script - 
+	Front - login
+	Back -
+
+Front End - 
+	CSS - Bootstrap?
+	HTML - express(handlebars and HTML hardcode renders)
+	JavaScript Renders - handlebars {{{}}}
+
+Back end - 
+	Routing - controllers* - 
+	Views - handlebars
+	Models - models for dog,cat,pic,user
+
+File/Folder Structure -
+
+ReadMe - 
+
+Auth -
+	Session's - Hashing password/Saving
+
+
+Nell - JS (front or back), Handlebars
+Linds - dont care + down for any
+Beth-Ann - 
+Max -  
+
+
