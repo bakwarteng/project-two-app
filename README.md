@@ -15,11 +15,12 @@ Full stack application - Happy Tails allows for users to find their forever frie
 Express, Express Handlebars, Postgres SQL, Node, Nodemon, Seqeulize
 
 ## Team
+A group of bootcamp student that came together to complete a full-stack application.
 Responsilbe for - *** Nell Van Schaak ***
 Responsilbe for -- *** Beth-Ann ***
 Responsilbe for - *** Max Bonetti ***
 Responsilbe for - *** Lindsey Maddox ***
-### Our Developers:
+
 
 ## Contributing
 
@@ -31,7 +32,6 @@ Responsilbe for - *** Lindsey Maddox ***
 
 
 ## Code of Conduct
-
 
 
 ## License
