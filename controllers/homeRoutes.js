@@ -1,7 +1,11 @@
+
+//get requests
+
 const router = require('express').Router();
 const { User, Animals } = require('../models');
 
 //get requests 
+
 //where we create elements on the page
 // get all users
 router.get('/', async (req, res) => {
@@ -86,3 +90,12 @@ router.get('/login', (req, res) => {
 
 module.exports = router;
 
+const router = require("express").Router();
+const { Router } = require("express");
+const { Animals } = require("../models");
+
+router.get("/", async (req, res) => {
+  const allAnimalData = await Animals.findAll();
+  res.json(allAnimalData);
+});
+module.exports = router;
