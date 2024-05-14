@@ -1,0 +1,25 @@
+-- HOMEPAGE --
+#
+/login
+HEADER (main handlebar)
+
+#
+nav banner
+    home/login/dogs/cats/store?(strechgoal)
+
+
+#
+welcome page/banner
+
+
+#
+Form
+    login 
+        2 button - register/enter
+            - register with username and password/email 
+                    HASH PASSWORD
+javascript - 
+#
+make sure routes are correct
+dark mode button
+sessions - loggedIn/Preferences
