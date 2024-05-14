@@ -1,5 +1,6 @@
 //get requests 
 //where we create elements on the page
+//res.render
 
 //get all animals for homepage
 
