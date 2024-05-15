@@ -9,7 +9,6 @@ if (exampleModal) {
   })
 };
 
-
 document.querySelector('#submit-btn').addEventListener('click', event => {
   event.preventDefault();
 
@@ -29,3 +28,4 @@ document.querySelector('#submit-btn').addEventListener('click', event => {
   const recipientEmail = document.querySelector('#recipient-name').value
   appendAlert(`Thank you for your submission. Happy Tails will reach out to you at ${recipientEmail}!`, 'success');
 });
+   
