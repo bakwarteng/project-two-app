@@ -9,6 +9,7 @@ router.get('/', async (req, res) => {
             animal.get({ plain: true })
         );
         res.render('homepage', {
+            loggedIn: req.session.loggedIn,
             animals
         });
     } catch (err) {
