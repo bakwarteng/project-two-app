@@ -48,7 +48,7 @@ const animalData = [
     breed: "American Shorthair",
     animal_name: "Livvy",
     description: "Well-manered tabby who loves to play.",
-    filename: "catanddog.jpg",
+    filename: "livvy.jpg",
   },
 
   {
