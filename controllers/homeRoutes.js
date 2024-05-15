@@ -15,8 +15,9 @@ router.get('/', async (req, res) => {
         res.status(500).json({ message: 'An error occured', err });
     }
 });
+
 //get for one animal
-router.get('/animals/:id', async (req, res) => {
+router.get('/animals/:id',  async (req, res) => {
     try {
         const dbAnimalData = await Animals.findByPk(req.params.id);
         const animal = dbAnimalData.get({ plain: true });
