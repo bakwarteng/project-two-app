@@ -11,6 +11,10 @@ Animals.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    filename: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     species: {
       type: DataTypes.STRING,
       allowNull: false,
