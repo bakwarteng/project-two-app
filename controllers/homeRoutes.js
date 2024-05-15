@@ -9,14 +9,16 @@ router.get('/', async (req, res) => {
             animal.get({ plain: true })
         );
         res.render('homepage', {
+            loggedIn: req.session.loggedIn,
             animals
         });
     } catch (err) {
         res.status(500).json({ message: 'An error occured', err });
     }
 });
+
 //get for one animal
-router.get('/animals/:id', async (req, res) => {
+router.get('/animals/:id',  async (req, res) => {
     try {
         const dbAnimalData = await Animals.findByPk(req.params.id);
         const animal = dbAnimalData.get({ plain: true });
