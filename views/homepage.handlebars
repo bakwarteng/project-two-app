@@ -1,7 +1,9 @@
 {{#each animals as |animal|}}
   <div class="row align-center mb-5">
     <div class="col-md-6">
+      <a href="/animals/{{animal.id}}">
       <img src="/images/{{animal.filename}}" alt="{{animal.description}}" />
+      </a>
       <h2>{{animal.animal_name}}</h2>
       <h3>{{animal.breed}}</h3>
       <h3>{{animal.age}}</h3>
