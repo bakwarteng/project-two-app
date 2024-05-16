@@ -3,46 +3,71 @@
   <h3 class="animal-name">{{animal.animal_name}}</h3>
   <img src="/images/{{animal.filename}}" alt="{{animal.description}}" />
 
-  <h4>My Breed Is: {{animal.breed}}</h4>
-  <h4>My Age Is: {{animal.age}}</h4>
+  <h4>My Breed is: {{animal.breed}}</h4>
+    <h4> My Gender is: {{ animal.gender}}</h3>
+
+  <h4>My Age is: {{animal.age}}</h4>
   <section class="flex-row justify-center">
     <p>{{animal.description}}</p>
     {{#if loggedIn}}
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adopt Now!</button>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Complete this form</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="recipient-name" class="col-form-label">Email here:</label>
-                <input type="text" class="form-control" id="recipient-name">
-              </div>
-              <div class="mb-3">
-                <label for="message-text" class="col-form-label">Best time to contact:</label>
-                <select name=“contact-time” id=“contact-time”>
-                  <option value=“morning”>Morning</option>
-                  <option value=“afternoon”>Afternoon</option>
-                  <option value=“evening”>Evening</option>
-                </select>
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            {{!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> --}}
-            <button type="button" class="btn btn-primary" id="submit-btn" data-bs-dismiss="modal">Submit Application</button>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >Adopt Now!</button>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Complete this
+                form</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Email here:</label>
+                  <input type="text" class="form-control" id="recipient-name" />
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Best time to
+                    contact:</label>
+                  <select name="“contact-time”" id="“contact-time”">
+                    <option value="“morning”">Morning</option>
+                    <option value="“afternoon”">Afternoon</option>
+                    <option value="“evening”">Evening</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              {{! <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> }}
+              <button
+                type="button"
+                class="btn btn-primary"
+                id="submit-btn"
+                data-bs-dismiss="modal"
+              >Submit Application</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     {{else}}
-    <a href="/login">
-      <button type="button" class="btn btn-primary">Log in to adopt!</button>
-    </a>
+      <a href="/login">
+        <button type="button" class="btn btn-primary">Log in to adopt!</button>
+      </a>
     {{/if}}
   </section>
 </section>
