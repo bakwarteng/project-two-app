@@ -1,5 +1,5 @@
 <html lang="en">
-
+<link rel="stylesheet" href="/public/CSS/styles.css"/>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -43,5 +43,16 @@
       <script src="/JS/logout.js"></script>
     {{/if}}
   </body>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  const options = {
+  saveInCookies: true, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
+}
 
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+  window.addEventListener('load', addDarkmodeWidget);
+</script> 
 </html>
