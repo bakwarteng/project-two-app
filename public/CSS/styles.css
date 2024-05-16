@@ -1,0 +1,5 @@
+.fixed-image {
+    width: 200px;
+    height: 200px;
+     /* This ensures the image covers the area without distorting aspect ratio */
+}
