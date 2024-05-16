@@ -1,5 +1,118 @@
-.fixed-image {
-    width: 200px;
-    height: 200px;
-     /* This ensures the image covers the area without distorting aspect ratio */
+* {
+    /* background-color: #B2D8D8;  */
+    font-family: "Fira Sans", sans-serif;
+}
+
+footer {
+    background-color: #B2D8D8;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    /* margin-top: 20px; */
+    /* Adjust padding as needed */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+   
+}
+
+nav {
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #83b0b0;
+    width: 100vw;
+}
+
+.darkmode--activated p,
+.darkmode--activated li {
+    color: #000;
+}
+
+.button {
+    isolation: isolate;
+}
+
+.darkmode--activated .logo {
+    mix-blend-mode: difference;
+}
+
+.main-header {
+    padding: 20px;
+    text-align: center;
+    font-family: "Lobster Two", sans-serif;
+    background-color: #B2D8D8;
+}
+
+.anchor-home {
+    text-decoration: none;
+}
+
+.animal-details {
+    background-color: #83b0b0;
+    /* Light teal background */
+    /* padding: 10px; */
+    /* margin: 5px; */
+    padding-bottom: 50px;
+
+}
+
+.animal-image {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.animal-content {
+    text-align: center;
+}
+
+.animal-bg {
+    background-color: #B2D8D8;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    body, .main-header, nav, footer {
+        padding: 10px; /* Reduced padding */
+    }
+    nav {
+        flex-direction: column; /* Stack nav items vertically */
+    }
+    .button, .animal-details, input[type="text"], input[type="email"], input[type="password"], select, textarea {
+        width: auto; /* Full width for smaller screens */
+        margin: 10px 0; /* More vertical spacing */
+    }
+    .main-header, .animal-details {
+        font-size: smaller; /* Adjust font size for readability on smaller devices */
+    }
+    footer {
+        padding: 15px 5px; /* Adjust padding for footer */
+    }
+}
+/* Media Query for Mobile Phones (devices with widths up to 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Smaller font size for smaller screens */
+    }
+    nav {
+        padding: 5px; /* Less padding in nav */
+        flex-direction: column; /* Ensure nav items are stacked vertically */
+    }
+    .animal-details {
+        display: block; /* Stack animal details vertically */
+        margin: 5px;
+        padding: 5px;
+    }
+    .animal-image, .animal-content {
+        width: 100%; /* Full width for images and content */
+        padding: 5px;
+    }
+    footer {
+        text-align: center; /* Center-align text in footer for smaller screens */
+    }
 }
