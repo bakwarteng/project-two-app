@@ -39,6 +39,7 @@ Animals.init(
       type: DataTypes.STRING,
       allowNull: true,
     },
+    
     gender: {
       type: DataTypes.STRING,
       allowNull: false,
