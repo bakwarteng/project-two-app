@@ -10,12 +10,12 @@ const loginFormHandler = async (event) => {
       // Send the e-mail and password to the server
       const response = await fetch('/api/users/login', {
         method: 'POST',
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email, password}),
         headers: { 'Content-Type': 'application/json' },
       });
   
       if (response.ok) {
-        document.location.replace('/');
+        document.location.replace(document.referrer);
       } else {
         alert('Failed to log in');
       }
@@ -27,15 +27,15 @@ const loginFormHandler = async (event) => {
     event.preventDefault();
   
     // Gather the data from the form elements on the page
-    const name = document.querySelector('#username').value.trim();
+    const username = document.querySelector('#username').value.trim();
     const email = document.querySelector('#email-signup').value.trim();
     const password = document.querySelector('#password-signup').value.trim();
   
-    if (name && email && password) {
+    if (username && email && password) {
       // Send the e-mail and password to the server
       const response = await fetch('/api/users', {
         method: 'POST',
-        body: JSON.stringify({ name, email, password }),
+        body: JSON.stringify({ username, email, password }),
         headers: { 'Content-Type': 'application/json' },
       });
   
