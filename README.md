@@ -1,35 +1,51 @@
 # Happy Tails
 
-Full stack application - Happy Tails allows for users to find their forever friend within a Dog or Cat compainon. This application allows for viewing different animal breeds that are up for adoption in your local area. Being able to see and filter animals through breed type, age, and color to bring your furrever freind home and to see that Happy Tail wagging.
-
 ## Description
+
+Happy Tails is a website designed for animal lovers who are interested in adopting cats and dogs. The website features a homepage where users can view available cats and dogs for adoption, along with their basic information such as breed, age, and gender. Users can click on their preferred animal to view more detailed information about them, including breed info and personality traits. When ready to adopt, users can click the "adopt now" button, which prompts them to log in or sign up for an account. After completing the login/sign up process and submitting the form, users receive a confirmation message stating "Thank you for your interest. Happy Tails will reach out to you at "your@email.com!."
 
 ## Installation
 
+With permission from the owner copy the repository and ensure the needed dependencies are installed such as Express, Express Handlebars, Postgres SQL, Node, Nodemon, Seqeulize, and Darkmode-js.
+
 ## Usage
+
+This is a sample page for an authenticated animal adoption website. The animals you see here are in happy homes.
 
 ## Features
 
-Express, Express Handlebars, Postgres SQL, Node, Nodemon, Seqeulize
+This application features an interactive user interface with light/ darkmode capability, and a responsive design. It also incooporates a functional back end database that tracks animals, allows the creation of new application users. The application utilizes both Bootstrap and custom styling by the development team. Future development features may include: third party api, customizable search capabilities
 
-## Team
+## Team Responsibilities
 
-A group of bootcamp student that came together to complete a full-stack application.
-Responsilbe for - **_ Nell Van Schaak _**
-Responsilbe for -- **_ Beth-Ann Kwarteng _**
-Responsilbe for - **_ Max Bonetti _**
-Responsilbe for - **_ Lindsey Maddox _**
+**_ Nell Van Schaak _**
+Provided the concept for the application
+Collaborated with groupmates to develop the login functionality
+Designed the style CSS stylesheet and incorporated input from group members beautifully. She was also crucial in debugging and cleaning the code.
+Github Profile: https://github.com/nvanschaack
 
-## Contributing
+**_ Beth-Ann Kwarteng _**
+Responsilbe for Collaborated with groupmates to develop the login functionality
+Provided animal model and seeds, updated handlebars with input from group members
+Github Profile: https://github.com/bakwarteng
+
+**_ Max Bonetti _**
+Responsilbe for Github owner, introduced the darkmode- js package to group members,
+Provided the user model and seeds, logout functionality, and initial MVC file structure.
+Github Profile: https://github.com/maxbonetti
+
+**_ Lindsey Maddox _**
+Collaborated with her groupmates on CSS styling, added further details to the animal seeds.js and ensured appropriate linking of the handlebars and stylesheets.
+Github Profile: https://github.com/lindseymaddox9
 
 ### How to Contribute:
 
-### Pull Request Process
-
-## Code of Conduct
+Please contribute only with permission from the repository owner. Clone the repository, create your own branch, and submit pull requests with a detailed description regarding the contributions made. These contributions will be reviewed and merged by the repository's owner/ authorized development team as appropriate.
 
 ## License
 
 **_ MIT _**
 
 ## Acknowledgments
+
+We would like to acknowledge our instructors Rachel and Ian for not only, a wonderful bootcamp experience, but also for the starter code provided.
