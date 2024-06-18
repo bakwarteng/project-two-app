@@ -14,7 +14,7 @@ This is a sample page for an authenticated animal adoption website. The animals 
 
 ## Features
 
-This application features an interactive user interface with light/ darkmode capability, and a responsive design. It also incooporates a functional back end database that tracks animals, allows the creation of new application users. The application utilizes both Bootstrap and custom styling by the development team. Future development features may include: third party api, customizable search capabilities
+This application features an interactive user interface with light/ darkmode capability, and a responsive design. It also incorporates a functional back-end database that tracks animals and allows the creation of new application users. The application utilizes both Bootstrap and custom styling by the development team. Future development features may include: third-party API, customizable search capabilities
 
 ## Team Responsibilities
 
@@ -40,7 +40,7 @@ Github Profile: https://github.com/lindseymaddox9
 
 ### How to Contribute:
 
-Please contribute only with permission from the repository owner. Clone the repository, create your own branch, and submit pull requests with a detailed description regarding the contributions made. These contributions will be reviewed and merged by the repository's owner/ authorized development team as appropriate.
+Please contribute only with permission from the repository owner. Clone the repository, create your own branch, and submit pull requests with a detailed description of the contributions made. These contributions will be reviewed and merged by the repository's owner/ authorized development team as appropriate.
 
 ## License
 
@@ -48,4 +48,8 @@ Please contribute only with permission from the repository owner. Clone the repo
 
 ## Acknowledgments
 
-We would like to acknowledge our instructors Rachel and Ian for not only, a wonderful bootcamp experience, but also for the starter code provided.
+We would like to acknowledge our instructors Rachel and Ian for not only, a wonderful boot camp experience, but also for the starter code provided.
+
+
+## Screenshot
+![project-two-screenshot](https://github.com/bakwarteng/project-two-app/assets/162824202/fc951a1e-b61f-4e1c-bae6-ef0e1f2a4cec)
